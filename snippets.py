@@ -1,4 +1,6 @@
 import logging
+import argparse
+import sys
 
 # Set the log output file, and the log level
 logging.basicConfig(filename="snippets.log", level=logging.DEBUG)
@@ -37,8 +39,10 @@ def search(name):
     return ""
   
 def main():
-    """Main function.
+    "Main function."
+    logging.info("Constructing parser")
+    parser = argparse.ArgumentParser(description="Store and retrieve snippets of text")
+    arguments = parser.parse_args(sys.argv[1:])
 
-    """
-    logging.error("FIXME: Unimplemented - get({!r})".format(name))
-    return ""
+if __name__ == "__main__":
+    main()
