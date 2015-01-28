@@ -21,3 +21,24 @@ def get(name):
     """
     logging.error("FIXME: Unimplemented - get({!r})".format(name))
     return ""
+  
+def create_parser(name):
+    """Create a parse to take args.
+
+    """
+    logging.error("FIXME: Unimplemented - get({!r})".format(name))
+    return ""
+  
+def search(name):
+    """Search.
+
+    """
+    logging.error("FIXME: Unimplemented - get({!r})".format(name))
+    return ""
+  
+def main():
+    """Main function.
+
+    """
+    logging.error("FIXME: Unimplemented - get({!r})".format(name))
+    return ""
